@@ -1,0 +1,69 @@
+@font-face {
+    font-family: attila;
+    src: url("./atila.ttf");
+}
+
+@font-face {
+    font-family: attilaRegular;
+    src: url("./atilaRegular.ttf");
+}
+
+@font-face {
+    font-family: attilaItalic;
+    src: url("./atilaItalic.ttf");
+}
+
+
+#fullScreenMenu {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+    position: absolute;
+    z-index: 9;
+    transform: translateY(-100%);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#nav {
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+    width: 100vw;
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#nav h1{
+    letter-spacing: 10px;
+    font-family: attila;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+#nav i {
+    font-size: 35px;
+    cursor: pointer;
+}
+#fullText h1{
+    font-size: 14vw;
+    position: absolute;
+    left: 5%;
+}
+#options{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+#options h1{
+    font-family: attilaRegular;
+    font-weight: 300;
+    font-size: 22px;
+    padding-top: 15px;
+}
