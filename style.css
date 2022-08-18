@@ -215,17 +215,20 @@ nav #napart2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   overflow: hidden;
 }
 #page3 #text .innertext {
   overflow: hidden;
-  height: 130px;
+  height: 6.5vw;
 }
 
 #page3 #text .innertext h1 {
   opacity: 0;
-  line-height: 4vw;
+  line-height: 6.5vw;
   font-family: attilaRegular;
   font-weight: 100;
   font-size: 5vw;
