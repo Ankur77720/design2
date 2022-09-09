@@ -78,8 +78,8 @@ nav #napart2 {
 
 #menu {
   display: inline-block;
-  height: 15px;
-  width: 30px;
+  height:1vw;
+  width: 1.4vw;
   position: relative;
   cursor: pointer;
 }
@@ -121,18 +121,19 @@ nav #napart2 {
 }
 
 #page1 #mainText::after {
-  font-size: 59px;
-  height: 50px;
-  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  height: 10vmin;
+  width: 10vmin;
   content: "R";
   position: absolute;
-  text-align: center;
-  padding-bottom: 20px;
   right: -0%;
   top: -0%;
   transform: translate(80%, 50%);
-  border-radius: 60px;
-  border: 4px solid rgb(213, 205, 196);
+  border-radius: 50%;
+  border: 0.5vh solid rgb(213, 205, 196);
   overflow: hidden;
   animation: fadeInUp 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s both;
 }
@@ -161,7 +162,7 @@ nav #napart2 {
   width: 40vw;
   font-size: 3vw;
   font-weight: 100;
-  line-height: 67px;
+  line-height: 3vw;
   overflow: hidden;
 }
 
@@ -180,9 +181,9 @@ nav #napart2 {
   overflow: hidden;
   font-family: attilaRegular;
   width: 15vw;
-  font-size: 13px;
+  font-size: 0.7vw;
   font-weight: 100;
-  line-height: 15px;
+  line-height: 0.7vw;
 }
 
 #page1 #subText2 h1 span {
@@ -247,7 +248,7 @@ hr {
   border-bottom: 0px dashed transparent;
   margin-left: 7vw;
   margin-right: 7vw;
-  width: 50px;
+  width: 4.5vw;
   transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 #page4 .varity {
@@ -384,7 +385,7 @@ hr {
 
 #page6 {
   width: 100vw;
-  height: 150vh;
+  height: 150vh;  
   overflow: hidden;
   padding-top: 15vh;
   background-color: rgb(30, 30, 30);
@@ -643,7 +644,7 @@ hr {
       transform: translateX(-16.4%);
     }
   }
-  #page7{
+  #page7 {
     height: 80vh;
   }
   #page7 #imgagesd1,
@@ -665,7 +666,7 @@ hr {
     height: 21vh;
     width: 24vw;
   }
-  #navpart2 h1{
+  #navpart2 h1 {
     display: none;
   }
 }
