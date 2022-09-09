@@ -67,3 +67,8 @@
     font-size: 22px;
     padding-top: 15px;
 }
+@media (max-width:600px){
+    #options{
+        width: 60vw;
+    }
+}
