@@ -125,13 +125,13 @@ nav #napart2 {
   justify-content: center;
   align-items: center;
   font-size: 4vw;
-  height: 10vmin;
-  width: 10vmin;
+  height: 5vw;
+  width: 5vw;
   content: "R";
   position: absolute;
-  right: -0%;
+  right: -10%;
   top: -0%;
-  transform: translate(80%, 50%);
+  /* transform: translate(80%, 50%); */
   border-radius: 50%;
   border: 0.5vh solid rgb(213, 205, 196);
   overflow: hidden;
